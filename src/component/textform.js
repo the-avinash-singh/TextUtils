@@ -47,7 +47,7 @@ setText(event.target.value);
     <div>
      <p className={`text-${b}`}>{text.trim().length} characters and {text.replace(/\n/g," ").split(" ").filter(value => value!=="").length} words</p>
      <p className={`text-${b}`}>{0.08*text.split(" ").length}min to read the text </p> 
-     <p className={`text${b} font-semibold mb-4`}>Preview</p>
+     <p className={`text-${b} font-semibold mb-4`}>Preview</p>
     <p className={`text-${b}`}>{text}</p>
     </div>
     </>
